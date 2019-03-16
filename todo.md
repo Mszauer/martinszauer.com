@@ -1,8 +1,8 @@
 # Personal Portfolio Website
 
-use https://gatsby-forty.surge.sh/#one as a template for styles
+use https://gatsby-forty.surge.sh/#one as inspiration for styles
 
-## Above the fold
+## Banner
 
 styles
 images
@@ -19,17 +19,10 @@ About the project
 
 ## Skills
 
-python, Appian, html, css, javascript, java, mySql (and other DB)
+styles
+add descriptions to skills
 
-## About Me (towards bottom)
+## About Me
 
-TLDR Version: Resume / CV
-
-I'm driven by learning the "why" behind the "how". Natural curiosity drives me and programming allows me to satisfy these curiosities.
-
-My formal education is in Business Management and Leadership, but during my senior year I found a deep passion for programming. I put a great focus on group dynamics and communication, what I consider  two of lifes most vital skills. Through software development I find joy in taking ideas from an idea to production, being able deliver a usable product to the stakeholders and brings value to the end users.
-
-For everything else, you can reach me at dev@martinszauer.com
-
-## TECHNICAL DETAILS
-
+styles
+use hooks to link to github and resume

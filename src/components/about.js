@@ -14,6 +14,7 @@ const About = () => (
                 <p>For everything else, you can reach me at dev@martinszauer.com</p>
                 <ul className="actions">
                     <li><Link to="_blank" className="button next scrolly">View Resume</Link></li>
+                    <li><Link to="_blank" className="button next scrolly">View Github</Link></li>
                 </ul>
             </div>
         </div>
