@@ -1,0 +1,12 @@
+.lightboxContainer { 
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 5px;
+}
+
+.imageButton {
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
