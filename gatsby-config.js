@@ -3,10 +3,12 @@ module.exports = {
     title: `Szauer Martin`,
     description: `Offical portfolio website for Martin Szauer.`,
     author: `@mszauer`,
+    github: `https://github.com/Mszauer`,
+    linkedIn: `https://www.linkedin.com/in/mszauer/`,
+    resumePath: ``
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
-
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -21,6 +23,12 @@ module.exports = {
         name: `json`,
         path: `${__dirname}/src/assets/json`,
         ignore: [`**/\.*`], // ignore files starting with a dot
+      },
+    },
+    {
+      resolve: `gatsby-transformer-json`,
+      options: {
+        typeName: `Json`, // a fixed string
       },
     },
     `gatsby-transformer-sharp`,

@@ -1,7 +1,7 @@
 import React from 'react'
+import Link from './link'
 
 const Banner = () => (
-
     <section id="banner" className="major">
         <div className="inner">
             <header className="major">
@@ -11,7 +11,7 @@ const Banner = () => (
                 <p>Self-Taught Developer, Powerlifter, Lifelong Learner</p>
                 <p>"It’s all just talk until it ships."</p>
                 <ul className="actions">
-                    <li><a href="_blank" className="button next scrolly">View Resume</a></li>
+                    <li><Link to="_blank" className="button next scrolly">View Resume</Link></li>
                 </ul>
             </div>
         </div>
